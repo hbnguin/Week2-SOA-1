@@ -55,6 +55,7 @@ Lớp `BooksService` cung cấp các phương thức để tương tác với c�
 | PUT              | `/api/books/{id}`             | Cập nhật thông tin sách nếu tồn tại.          | Trả về mã 200 (OK) nếu cập nhật thành công, hoặc 404 nếu không tìm thấy sách. |
 | DELETE           | `/api/books/{id}`             | Xóa một cuốn sách khỏi cơ sở dữ liệu.         | Trả về mã 200 (OK) nếu xóa thành công, hoặc 404 nếu không tìm thấy sách. |
 
+![Example Image](./photos/Anh1.png)
 
 ## Tính Năng
 - **Kiểm Tra API Với Swagger**: Dự án tích hợp Swagger UI cho phép người dùng kiểm tra và thử nghiệm API trực tiếp từ trình duyệt. Tính năng này giúp việc kiểm tra và phát triển dễ dàng hơn.
@@ -62,6 +63,7 @@ Lớp `BooksService` cung cấp các phương thức để tương tác với c�
 - **Tích Hợp Cơ Sở Dữ Liệu Dễ Dàng Mở Rộng**: MongoDB là giải pháp lý tưởng cho việc lưu trữ và mở rộng cơ sở dữ liệu, giúp ứng dụng có thể dễ dàng mở rộng khi số lượng sách gia tăng.
 
 ## Ví Dụ Dữ Liệu
+![Example Image](./photos/Anh2.png)
 
 ```json
 {
